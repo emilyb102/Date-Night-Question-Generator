@@ -66,7 +66,7 @@ const Goofy = [
 
 const Inspired = [
 {
-	text: "If you caould talk to one person for the rest of your life, who would it be? "
+	text: "If you could talk to one person for the rest of your life, who would it be? "
 },
 {
 	text: "If you could tell your younger self some advice, what would it be? "
