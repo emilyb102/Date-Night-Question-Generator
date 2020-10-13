@@ -1,0 +1,102 @@
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	background-color: #232323;
+}
+.quoteContainer {
+	width: 23em;
+	height: 23em;
+	float: left;
+	margin: 1.66%;
+	padding-top: 2em;
+	border: 4px solid #F1F1F1;
+	display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    overflow-wrap: anywhere;
+
+}
+
+.quoteBox {
+	padding-bottom: 37%;
+    padding-left: 2%;
+    margin: auto;
+}
+
+span {
+	color: #FFFFFF;
+}
+#Gentle {
+	background: url(../../Assets/images/fern.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+
+}
+
+#Goofy {
+	background: url(../../Assets/images/squirrel.jpg);
+		background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#Inspired {
+	background: url(../../Assets/images/mountain.jpg);
+		background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon {
+    background: url('../../Assets/images/icon.png');
+    height: 49px;
+    width: 63px;
+    display: -webkit-inline-box;
+}
+
+p {
+	margin-left: 1.66%;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	border-bottom: 4px solid #F1F1F1;
+	width: 85%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: steelblue;
+}
+
+button {
+	border: none;
+	background: #F1F1F1;
+	height: 10%;
+	width: 31%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: 22px;
+	transition: all 0.3s;
+	--webkit-transition: background0.6s;
+	--moz-transition: background 0.6s;
+	outline: none;
+	overflow-wrap: break-word;
+}
+
+.selected {
+	background: steelblue;
+	color:#FFFFFF;
+	border: 3px solid #FFFFFF;
+
+}
+
+.header {
+	background: #FFFFFF;
+	box-shadow: 6px 6px steelblue;
+}
+
+.header:hover {
+	background: #232323;
+}
+
+button:hover {
+	background: steelblue;
+	color: #FFFFFF;
+}
