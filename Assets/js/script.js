@@ -7,6 +7,11 @@ const goofyBtn = document.getElementById("goofyBtn");
 const inspiredBtn = document.getElementById("inspiredBtn");
 const headerBtn = document.querySelector("p");
 
+gentleText.textContent = newQuestion(Gentle);
+goofyText.textContent = newQuestion(Goofy);
+inspiredText.textContent = newQuestion(Inspired);
+
+
 gentleBtn.addEventListener("click", function(){
 	gentleText.textContent = newQuestion(Gentle);
 });
