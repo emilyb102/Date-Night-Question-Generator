@@ -21,9 +21,6 @@ const Gentle = [
 	text: "What\'s one of your favorite things to cook?"
 }, 
 {
-	text: "What are the things that you do but don/'t like doing?"
-},
-{
 	text: "What little things make you happy?"
 },	
 {
@@ -196,6 +193,9 @@ const Goofy = [
 const Inspired = [
 {
 	text: "If you could talk to one person for the rest of your life, who would it be? "
+},
+{
+	text: "What are the things that you do but don\'t like doing?"
 },
 {
 	text: "If you could tell your younger self some advice, what would it be? "
