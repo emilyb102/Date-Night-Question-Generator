@@ -303,7 +303,7 @@ const Inspired = [
 	text: "What habits do you want to cultivate?"
 },
 {
-	text: "What work would you like to do if i\'s not paid and there are no restrictions on time and resources?"
+	text: "What work would you like to do if it\'s not paid and there are no restrictions on time and resources?"
 },
 {
 	text: "What advice would you give to your past-self 5 years ago?"
