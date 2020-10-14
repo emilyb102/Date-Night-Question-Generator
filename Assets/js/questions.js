@@ -402,7 +402,7 @@ const Inspired = [
 	text: "When you are 80-years-old, what will matter to you the most?"
 },
 {
-	text: "If you could choose one book as a mandatory read for all high school students, which book would you choose?"
+	text: "Which book would you make mandatory for all students?"
 },
 {
 	text: "What\'s something you know you do differently than most people?"
