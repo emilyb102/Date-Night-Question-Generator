@@ -532,4 +532,19 @@ const allQuestions = [
 {
 	text: "What are you proud of, but never have an excuse to talk about?"
 }]
-}]
+},
+{
+	name: "Test",
+	image: "mountain.jpg",
+	questions: [
+		{
+			text:"Is this working?"
+		},
+		{
+			text:"Yup, it's working"
+		}
+	]
+}
+]
+
+
