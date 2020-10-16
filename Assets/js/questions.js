@@ -1,67 +1,82 @@
-const Gentle = [
+const allQuestions = [
 {
-	text: "What is on your mind?"
-}, 
-{
-	text: "Tell me about the last trip you went on?"
+	name: "Hidden",
+	image: "fern.jpg",
+	questions : [
+		{
+			text: "Do I need more questions?"
+		}
+	]
 },
 {
-	text: "What is your favorite holiday?"
+	name: "Gentle",
+	image: "fern.jpg",
+	questions: [
+		{
+			text: "What is on your mind?"
+		}, 
+		{
+			text: "Tell me about the last trip you went on?"
+		},
+		{
+			text: "What is your favorite holiday?"
+		}, 
+		{
+			text: "When you were a kid what did you want to be when you grew up? "
+		},
+		{
+			text: "If you could use magic to do one mundane task for the rest of your life, what would it be?"
+		}, 
+		{
+			text: "What is your go-to movie or show when you need a pick-me-up?"
+		}, 
+		{
+			text: "What\'s one of your favorite things to cook?"
+		}, 
+		{
+			text: "What are the things that you do but don\'t like doing?"
+		},
+		{
+			text: "What little things make you happy?"
+		},	
+		{
+			text: "What activities relax you?"
+		},
+		{
+			text: "When you\'re at the library or a bookstore what section are you drawn to?"
+		}, 
+		{
+			text: "What do you do to relieve stress?"
+		},
+		{
+			text: "What is your favorite sound?"
+		},
+		{
+			text: "What\'s the best part of your day?"
+		},
+		{
+			text: "If you could learn any musical instrument, what would it be?"
+		}, 
+		{
+			text: "If you could learn 3 languages instantly what would they be?"
+		},
+		{
+			text: "Who is your favorite superhero?"
+		}, 
+		{
+			text: "Favorite kind of Christmas lights?"
+		}, 
+		{
+			text: "What made you happy today?"
+		},
+		{
+			text: "What is your favorite cereal?"
+		}]
 }, 
 {
-	text: "When you were a kid what did you want to be when you grew up? "
-},
-{
-	text: "If you could use magic to do one mundane task for the rest of your life, what would it be?"
-}, 
-{
-	text: "What is your go-to movie or show when you need a pick-me-up?"
-}, 
-{
-	text: "What\'s one of your favorite things to cook?"
-}, 
-{
-	text: "What little things make you happy?"
-},	
-{
-	text: "What activities relax you?"
-},
-{
-	text: "When you\'re at the library or a bookstore what section are you drawn to?"
-}, 
-{
-	text: "What do you do to relieve stress?"
-},
-{
-	text: "What is your favorite sound?"
-},
-{
-	text: "What\'s the best part of your day?"
-},
-{
-	text: "If you could learn any musical instrument, what would it be?"
-}, 
-{
-	text: "If you could learn 3 languages instantly what would they be?"
-},
-{
-	text: "Who is your favorite superhero?"
-}, 
-{
-	text: "Favorite kind of Christmas lights?"
-}, 
-{
-	text: "What made you happy today?"
-},
-{
-	text: "What is your favorite cereal?"
-}];
-
-
-
-
-
-const Goofy = [
+	name: "Goofy",
+	image: "squirrel.jpg",
+	questions: [
 {
 	text: "If you opened a business in the world of a book, what book & what business?"
 },
@@ -187,15 +202,14 @@ const Goofy = [
 },
 {
 	text: "If you could have one super lame super power what would it be?"
-}];
-
-
-const Inspired = [
+}]
+}, 
+{
+	name: "Inspired",
+	image: "mountain.jpg",
+	questions: [
 {
 	text: "If you could talk to one person for the rest of your life, who would it be? "
-},
-{
-	text: "What are the things that you do but don\'t like doing?"
 },
 {
 	text: "If you could tell your younger self some advice, what would it be? "
@@ -303,7 +317,7 @@ const Inspired = [
 	text: "What habits do you want to cultivate?"
 },
 {
-	text: "What work would you like to do if it\'s not paid and there are no restrictions on time and resources?"
+	text: "What work would you like to do if i\'s not paid and there are no restrictions on time and resources?"
 },
 {
 	text: "What advice would you give to your past-self 5 years ago?"
@@ -402,7 +416,7 @@ const Inspired = [
 	text: "When you are 80-years-old, what will matter to you the most?"
 },
 {
-	text: "Which book would you make mandatory for all students?"
+	text: "What book would you make mandatory for all students?"
 },
 {
 	text: "What\'s something you know you do differently than most people?"
@@ -517,4 +531,5 @@ const Inspired = [
 },
 {
 	text: "What are you proud of, but never have an excuse to talk about?"
-}];
+}]
+}]
