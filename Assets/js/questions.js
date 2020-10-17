@@ -25,6 +25,15 @@ const allQuestions = [
 			text: "When you were a kid what did you want to be when you grew up? "
 		},
 		{
+			text:"Where did you grow up?"
+		},
+		{
+			text:"When and where were you born?"
+		},
+		{
+			text:"Where you grew up, what was it like?" 
+		},
+		{
 			text: "If you could use magic to do one mundane task for the rest of your life, what would it be?"
 		}, 
 		{
@@ -273,6 +282,114 @@ const allQuestions = [
 },
 {
 	text: "What are you grateful for?"
+},
+{
+	text: "Can you tell me about a person who has been kindest to you in your life?" 
+},
+{
+	text: "Can you tell me about one of your happiest memories?" 
+},
+{
+	text: "Can you tell me about one of your most difficult memories?" 
+},
+{
+	text: "Can you tell me about someone you’ll always remember?" 
+},
+{
+	text: "Can you tell me about someone who has had a big influence on your life? What lessons did that person teach you?" 
+},
+{
+	text: "What do you feel most grateful for in your life?" 
+},
+{
+	text: "What are some of the most important lessons you’ve learned in life?" 
+},
+{
+	text: "What is your favorite memory of me?" 
+},
+{
+	text: "What are you proudest of in your life?" 
+},
+{
+	text: "Can you remember a time in your life when you felt most alone?" 
+},
+{
+	text: "If you could hold on to one memory from your life forever, which would it be?" 
+},
+{
+	text: "How has your life been different than what you’d imagined?" 
+},
+{
+	text: "How would you like to be remembered?" 
+},
+{
+	text: "Do you have any regrets?" 
+},
+{
+	text: "If you were to die suddenly this evening, what would you regret not having done? Why haven’t you done it?" 
+},
+{
+	text: "When was the last time you cried and why?" 
+},
+{
+	text: "What does your future hold?" 
+},
+{
+	text: "Did you get into trouble growing up? What was the worst thing you did?" 
+},
+{
+	text: "What are your hopes for me?" 
+},
+{
+	text: "If this was to be our very last conversation, is there anything you’d want to say to me?" 
+},
+{
+	text: "For future generations of your family, if they were listening: is there any wisdom you’d want to pass on to them? What would you want them to know?" 
+},
+{
+	text: "What were your siblings like growing up? " 
+},
+{
+	text: "What did you look like growing up? " 
+},
+{
+	text: "How would you describe yourself as a child? Were you happy?" 
+},
+{
+	text: "What is your best memory of childhood? Worst?" 
+},
+{
+	text: "Do you believe in Heaven? What do you think it will be like?" 
+},
+{
+	text: "Where is your mom’s family from? Where is your dad’s family from?" 
+},
+{
+	text: "Have you ever been to where your parents are from? What was that experience like?" 
+},
+{
+	text: "What traditions have been passed down in your family?" 
+},
+{
+	text: "Did you have a nickname? How’d you get it?" 
+},
+{
+	text: "How would you describe a perfect day when you were young?" 
+},
+{
+	text: "Do you have any favorite stories from your childhood?" 
+},
+{
+	text: "What are the classic family stories? Jokes? Songs?" 
+},
+{
+	text: "Did you enjoy school?" 
+},
+{
+	text: "What kind of student were you?" 
+},
+{
+	text: "What would you do for fun growing up and at school?" 
 },
 {
 	text: "What are you terrible at but love to do anyway?"
