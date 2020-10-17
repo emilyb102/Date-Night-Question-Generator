@@ -1,4 +1,4 @@
-const bloop = new Audio("Assets/sounds/holepunch.mp3");
+const button = new Audio("Assets/sounds/buttontap.wav");
 const pen = new Audio("Assets/sounds/penclick.mp3");
 // const bottle = new Audio("Assets/sounds/bottlecrush.mp3");
 
@@ -114,6 +114,7 @@ function newQuestion(type){
 function btnClick(){
 	buttons.forEach(function(element, index){
 		element.addEventListener("click", function(){
+			button.play();
 			text[(index)].textContent = newQuestion(element.textContent)
 		})
 	});
