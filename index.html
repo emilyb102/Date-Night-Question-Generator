@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Date Night Question Generator</title>
-	<link rel="stylesheet" type="text/css" href="Assets/css/questions.css">
-	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <title>Date Night Question Generator</title>
+    <link rel="stylesheet" type="text/css" href="Assets/css/questions.css">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<p class="header">Date Night Questions</p>
+    <p class="header">Date Night Questions</p>
 
-<div class="checkboxribbon">
-	<div class="fixedCheck">
-		<div class="checkboxContent">
-			<div class="chkBoxSquare" class="check"></div>
-			<div class="checkboxLabel">Whaat</div>
-		</div>
-	</div>
+    <div class="checkboxribbon">
+        <div class="fixed">
+            <div class="checkboxContent">
+                <div class="chkBoxSquare" class="check"></div>
+                <div class="checkboxLabel">Whaat</div>
+            </div>
+        </div>
+        <div class="variable"></div>
+    </div>
 
-	<div class="removeCheck"></div>
-</div>
+    <div class="hardcardRibbon">
+        <div class="fixed">
+            <div class="hardcard" draggable="true">
+                <div class="quoteContainer">
+                    <p class="quoteBox">
+                        <span class="icon" aria-hidden="true"></span>
+                        <span class=text></span>
+                    </p>
+                </div>
+                <button></button>
+            </div>
+        </div>
+        <div class="variable"></div>
+    </div>
 
-<div class="fixed">
-<div class="hardcard">
-<div class="quoteContainer">
-		<p class="quoteBox">
-			<span class="icon" aria-hidden="true"></span>	
-			<span class=text></span>
-		</p>	
-</div>
-	<button></button>
-</div>
-</div>
-
-<div class="removable"></div>
-
-<script type="text/javascript" src="Assets/js/questions.js"></script>
-<script type="text/javascript" src="Assets/js/script.js"></script>
+    <script type="text/javascript" src="Assets/js/questions.js"></script>
+    <script type="text/javascript" src="Assets/js/script.js"></script>
 </body>
+
 </html>
